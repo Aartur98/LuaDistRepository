@@ -15,7 +15,7 @@ Bootstraping LuaDist deployment tool
 Please make sure your system has git, CMake 2.8  and a compiler tool-chain available. On Ubuntu this requires git, cmake, build-essential. This build will take quite a while to compile, please be patient.
 
 ```bash
-git clone git://github.com/LuaDist/Repository.git
+git clone https://github.com/LuaDist/Repository.git
 cd Repository
 git submodule update --init --recursive bootstrap
 ./install bootstrap
@@ -53,7 +53,7 @@ Cloning
 To clone the full repository:
 
 ```bash	
-git clone git://github.com/LuaDist/Repository.git
+git clone https://github.com/LuaDist/Repository.git
 cd Repository
 git submodule update --init --recursive
 ```
